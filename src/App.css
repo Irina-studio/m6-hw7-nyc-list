@@ -1,38 +1,84 @@
-.App {
+body {
+  background-color: rgba(240, 231, 227, 1);
+}
+
+h1 {
   text-align: center;
+  color: rgba(102, 48, 38, 1);
+  font-family: "Mansalva", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4 {
+  color: rgba(102, 48, 38, 1);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.containerImg {
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 0.5px rgba(102, 48, 38, 1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn1,
+.btn {
+  background-color: rgba(106, 219, 216, 1);
+  color: rgba(102, 48, 38, 1);
+  margin: 30px;
+  padding: 15px;
+  border: none;
+  border-radius: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  min-width: 270px;
+  max-width: 270px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #fff;
+  margin: 20px;
+  padding: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.App-link {
-  color: #61dafb;
+.btn3 {
+  background: white;
+  border: none;
+  font-size: 12px;
+  color: rgba(106, 219, 216, 1);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
 }
